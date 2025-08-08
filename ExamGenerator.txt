@@ -1,0 +1,148 @@
+Agentic AI: Summary & Key Points
+
+What is Agentic AI?
+Agentic AI refers to autonomous systems capable of making decisions and executing tasks without human intervention. Unlike traditional AI, which responds to specific prompts, agentic AI proactively plans, adapts, and acts to achieve defined goals .
+
+Core Characteristics:
+
+Autonomy: Operates independently, initiating actions based on objectives.
+
+Goal-Oriented: Pursues specific outcomes, adjusting strategies as needed.
+
+Adaptive Learning: Continuously learns from new data and experiences.
+
+Complex Reasoning: Handles multi-step tasks using sophisticated decision-making processes .
+
+Applications Across Industries:
+
+Customer Support: Automates responses and resolves issues without human agents.
+
+Finance: Manages trading strategies and risk assessments autonomously.
+
+Healthcare: Assists in diagnostics and personalized treatment plans.
+
+Legal: Conducts document reviews and legal research efficiently .
+
+Benefits:
+
+Efficiency: Streamlines operations by handling repetitive tasks.
+
+Scalability: Manages increasing workloads without proportional resource increases.
+
+Innovation: Enables new services and products through advanced capabilities.
+
+Challenges:
+
+Accountability: Determining responsibility for AI-driven decisions.
+
+Ethical Concerns: Ensuring fairness and transparency in autonomous actions.
+
+Integration: Aligning AI systems with existing workflows and regulations .
+
+Agentic AI represents a significant advancement in artificial intelligence, offering transformative potential across various sectors while also introducing new considerations for governance and ethical deployment.
+
+
+Classification in ML 
+In machine learning, classification is a supervised learning technique where the model learns from labeled data to predict the category of new, unseen data points. Classification tasks can be categorized into:
+Grammarly: Free AI Writing Assistance
+
+Binary Classification: Distinguishing between two classes (e.g., spam vs. not spam).
+LinkedIn
++1
+GeeksforGeeks
++1
+
+Multi-Class Classification: Classifying data into more than two categories (e.g., classifying types of fruits).
+IBM - United States
++7
+Learn R, Python & Data Science Online
++7
+Wikipedia
++7
+
+Multi-Label Classification: Assigning multiple labels to a single instance (e.g., tagging a news article with multiple topics).
+
+Imbalanced Classification: Handling datasets where some classes are underrepresented compared to others.
+
+Common Classification Algorithms:
+
+Logistic Regression: Used for binary classification; models the probability of a class using a logistic function.
+Wikipedia
++7
+Analytics Vidhya
++7
+MachineLearningMastery.com
++7
+
+Decision Trees: Splits data into branches to make predictions; easy to interpret.
+Wikipedia
+
+Random Forest: An ensemble of decision trees; improves accuracy and controls overfitting.
+Learn R, Python & Data Science Online
++15
+Semantic Scholar
++15
+MathWorks - Maker of MATLAB and Simulink
++15
+
+Support Vector Machines (SVM): Finds the optimal boundary between classes; effective in high-dimensional spaces.
+Learn R, Python & Data Science Online
++12
+Built In
++12
+Wikipedia
++12
+
+K-Nearest Neighbors (K-NN): Classifies based on the majority class among the k closest data points.
+Analytics Vidhya
++2
+Medium
++2
+Built In
++2
+
+Naive Bayes: Based on Bayes' theorem; assumes feature independence; efficient for large datasets.
+
+Gradient Boosting: Builds models sequentially to correct errors of previous models; includes algorithms like XGBoost and LightGBM.
+
+Each algorithm has its strengths and is chosen based on the specific characteristics of the dataset and the problem at hand. For instance, Naive Bayes is often used for text classification due to its simplicity and efficiency, while Random Forest is preferred when accuracy is paramount and interpretability is less of a concern.
+
+
+
+
+A Recurrent Neural Network (RNN) is a type of neural network designed for processing sequential data, such as time series, text, or speech. Unlike traditional feedforward neural networks, RNNs have loops that allow information to persist, enabling them to maintain a 'memory' of previous inputs. 
+Wikipedia
++1
+GeeksforGeeks
++1
+
+🔁 Core Concepts
+Sequential Processing: RNNs process input sequences one element at a time, maintaining a hidden state that captures information about previous elements.
+
+Shared Parameters: The same set of weights is applied at each time step, allowing the network to generalize across different positions in the sequence.
+
+Backpropagation Through Time (BPTT): Training involves unrolling the network through time and applying backpropagation to update weights.
+
+🧠 Key Variants
+LSTM (Long Short-Term Memory): Addresses the vanishing gradient problem by introducing gates that regulate the flow of information.
+
+GRU (Gated Recurrent Unit): A simplified version of LSTM with fewer parameters, often performing comparably.
+
+Bidirectional RNN: Processes sequences in both forward and backward directions, capturing context from both past and future.
+GeeksforGeeks
+
+⚠️ Limitations
+Vanishing/Exploding Gradients: Challenges in training due to gradients becoming too small or large, making it hard to learn long-term dependencies.
+
+Sequential Computation: Inherent sequential nature limits parallelization, leading to longer training times.
+
+Short-Term Memory: Standard RNNs struggle with retaining information over long sequences.
+
+📚 Applications
+Natural Language Processing: Language modeling, machine translation, and text generation.
+
+Speech Recognition: Transcribing spoken words into text.
+
+Time Series Forecasting: Predicting future values based on historical data.
+
+Music Generation: Creating sequences of musical notes or compositions.
